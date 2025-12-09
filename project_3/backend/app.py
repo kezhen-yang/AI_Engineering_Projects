@@ -5,7 +5,7 @@ from pydantic import BaseModel
 
 from langchain_community.chat_models import ChatOllama
 from langchain.agents import initialize_agent, Tool, AgentType
-from ddgs import DDGS
+from duckduckgo_search import DDGS
 
 from langchain.tools import tool
 
